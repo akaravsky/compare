@@ -1,10 +1,11 @@
-Compare
+## Compare
 
 ###Install
 
-yarn install
+    yarn install
+    
+###Run application on localhost
 
-###Run application
-
-1) check that port 3000 is available
-2) yarn start
+    1) check that port 3000 is available
+    2) yarn start
+    3) in browser go to http://localhost:3000
