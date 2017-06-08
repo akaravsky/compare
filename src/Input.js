@@ -40,7 +40,7 @@ class Input extends Component {
   render() {
     return (
       <div className = "container">
-        <input type="file" id="files" name="files[]" onChange={this.handleFileSelect} multiple />
+        <input className = "input-form" type="file" id="files" name="files[]" onChange={this.handleFileSelect} multiple />
         <div className = "input-container">
           <ol>{this.state.lines.map((line) =>  
               <li key={Math.random().toString()}>{line}</li>  

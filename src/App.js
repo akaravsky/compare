@@ -25,8 +25,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Input onChangeText={this.handleTextFirst}/>
-        <Input onChangeText={this.handleTextSecond}/>
+        <div className="App-container">
+          <Input onChangeText={this.handleTextFirst}/>
+          <Input onChangeText={this.handleTextSecond}/>
+        </div>
         <Compare firstArr = {this.state.firstlines} secondArr = {this.state.secondlines}/>
       </div>
     );

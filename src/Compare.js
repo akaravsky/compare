@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Compare.css';
 
 class Compare extends Component {
   constructor(props) {
@@ -47,12 +48,13 @@ class Compare extends Component {
   render() {
 
     return (
-      <div className = "compareContainer">
-       <ol>{this.state.resArr.map((line) =>  
+      <div className = "compare-container">
+        <div className = "compare-container-border">
+          <ol>{this.state.resArr.map((line) =>  
               <li key={Math.random().toString()}>{line}</li>  
             )}
           </ol>
-      
+        </div>
       </div>
     );
   }

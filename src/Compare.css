@@ -1,0 +1,9 @@
+.compare-container{
+	display:flex;
+	justify-content: center;
+}
+
+.compare-container-border{
+	width: 100px;
+	text-align: center;
+}
