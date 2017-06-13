@@ -12,5 +12,7 @@
   text-align: center;
   box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
   background-color: #FFF;
-
+}
+.compare-container-border-hide{
+	display: none;
 }

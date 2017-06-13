@@ -46,10 +46,16 @@ class Compare extends Component {
 
 
   render() {
+    let borderClassName
+    if(this.props.firstArr.length === 0 || this.props.secondArr.length === 0){
+      borderClassName = "compare-container-border-hide"
+    } else {
+      borderClassName = "compare-container-border"
+    }
 
     return (
       <div className = "compare-container">
-        <div className = "compare-container-border">
+        <div className = {borderClassName}>
           <ol>{this.state.resArr.map((line) =>  
               <li key={Math.random().toString()}>{line}</li>  
             )}
