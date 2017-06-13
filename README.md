@@ -4,10 +4,12 @@
 
 Compare two text files
 
+```
+
 * in case if line has changed
 – in case if line exists in the first file but does not exist in the second one
 + in case if line does not exist in the first file but exists in the second one
-Nothing if line has not changed.
+Nothing if line has not changed.`
 
 For example:
 
@@ -34,10 +36,7 @@ Result
 5. +
 6. +
 7. +
-8. +
-
-
-
+```
 
 ###Install
 
